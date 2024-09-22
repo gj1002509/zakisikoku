@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "イラスト"
+title: "illustration"
 author: ""
 categories: illustration
 tags: [documentation,sample]
