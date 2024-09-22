@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Getting Started"
-author: "Paul Le"
-categories: documentation
+title: "写真観"
+author: ""
+categories: photo
 tags: [documentation,sample]
 image: city-1.jpg
 ---
