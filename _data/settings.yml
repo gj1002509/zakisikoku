@@ -10,7 +10,7 @@ menu:
 - {name: '活動日記',  url: 'active'}
 - {name: 'イラスト製作', url: 'resources'}
 - {name: 'plazmaのすすめ',       url: 'sample-posts'}
-- {name: '写真観',      url: 'documentation'}
+- {name: '写真観',      url: 'photo'}
 - {name: '筋肉マスター',              url: 'about'}
 - {name: '備忘録',            url: 'contact'}
 
