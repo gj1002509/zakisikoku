@@ -7,7 +7,7 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: '活動日記',  url: 'facts'}
+- {name: '活動日記',  url: 'active'}
 - {name: 'イラスト製作', url: 'resources'}
 - {name: 'plazmaのすすめ',       url: 'sample-posts'}
 - {name: '写真観',      url: 'documentation'}
