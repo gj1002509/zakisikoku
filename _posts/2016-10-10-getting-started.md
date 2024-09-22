@@ -4,7 +4,7 @@ title: "illustration"
 author: ""
 categories: illustration
 tags: [documentation,sample]
-image: yuri1.jpg
+image: yuri1.png
 ---
 
 ## [Free]
