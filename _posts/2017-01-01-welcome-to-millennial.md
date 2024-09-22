@@ -4,7 +4,7 @@ title: "筋肉マスターの道!"
 author: ""
 categories: muscle
 tags: [documentation,sample]
-image: sakata_2.jpg
+image: buta.jpg
 ---
 
 ## お願いマッスル
