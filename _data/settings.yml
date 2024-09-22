@@ -8,7 +8,7 @@ menu:
 - {name: 'illustration', url: 'illustration'}
 - {name: 'plazmaのすすめ',  url: 'sample-posts'}
 - {name: '写真観',      url: 'photo'}
-- {name: '筋肉マスター', url: 'about'}
+- {name: '筋肉マスター', url: 'muscle'}
 - {name: '備忘録',      url: 'contact'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
