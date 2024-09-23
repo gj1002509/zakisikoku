@@ -11,12 +11,26 @@ $container-width: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
 
-.custom-image-post img {
-  width: 300px; /* 幅を300pxに設定 */
-  height: auto; /* アスペクト比を維持して高さを自動調整 */
-  border-radius: 8px; /* 角を少し丸める（オプション） */
-  object-fit: cover; /* 画像のフィット方法を設定 */
+.custom-image-posts {
+  display: flex; /* フレックスボックスで横並びにする */
+  justify-content: space-between; /* 2つのリンクの間隔を均等にする */
+  flex-wrap: wrap; /* 画面サイズに応じて折り返す */
+  margin-top: 20px; /* 上に余白を追加 */
 }
+
+.custom-image-post {
+  width: calc(50% - 10px); /* 2つの要素を50%幅にし、間隔を10pxあける */
+  margin-bottom: 20px; /* 下に余白を追加 */
+  text-align: center; /* テキストを中央揃えにする */
+}
+
+.custom-image-post img {
+  width: 100%; /* 幅をコンテナに合わせる */
+  aspect-ratio: 1/1; /* 正方形にする */
+  object-fit: cover; /* 画像をコンテナ内に収める */
+  border-radius: 8px; /* 角を少し丸める（オプション） */
+}
+
 
 $header-thickness: 56px;
 
