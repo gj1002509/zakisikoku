@@ -13,14 +13,23 @@ $phone-width: 480px;
 
 .featured-posts-container {
   display: flex;
-  flex-wrap: wrap; /* 要素が自動的に折り返される */
-  justify-content: space-between; /* 要素間のスペースを均等にする */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .featured-post {
-  width: calc(50% - 10px); /* 50%の幅を指定し、余白を10px分引く */
-  margin-bottom: 20px; /* 各写真間の下余白を追加 */
+  width: calc(48% - 10px);
+  margin-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+  .featured-post {
+    width: 100%;
+  }
+}
+
 
 $header-thickness: 56px;
 
