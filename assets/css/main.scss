@@ -7,16 +7,6 @@ $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
 
-.featured-posts-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 1行に2つのカラムを設定 */
-  grid-gap: 20px; /* カラム間と行間にスペースを設定 */
-}
-
-.featured-post {
-  width: 100%; /* グリッド内で幅を100%に設定 */
-}
-
 $container-width: 400px;
 $tablet-width: 600px;
 $phone-width: 480px;
