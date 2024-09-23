@@ -11,6 +11,12 @@
   text-align: center;
 }
 
+.featured-post-container3 {
+  width: calc(33.33% - 5px); /* 横に2つ並べるための50%幅に設定 */
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 .featured-post {
   height: 400px;
   margin: 0;
