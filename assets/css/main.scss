@@ -13,15 +13,14 @@ $phone-width: 480px;
 
 .custom-image-posts {
   display: flex;
-  flex-wrap: wrap; /* 画面幅が足りないときに自動で折り返す */
-  justify-content: space-between; /* 子要素を均等に並べる */
-  gap: 10px; /* 要素間のスペースを追加 */
-  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .custom-image-post {
-  flex-basis: calc(50% - 10px); /* 2つの要素を50%幅にし、間隔を10pxに設定 */
-  margin-bottom: 20px;
+  flex-basis: calc(33% - 10px); /* 2つの要素を50%幅にし、間隔を10pxに設定 */
+  margin-bottom: 10px;
   text-align: center;
 }
 
