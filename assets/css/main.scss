@@ -11,6 +11,13 @@ $container-width: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
 
+.custom-image-post img {
+  width: 300px; /* 幅を300pxに設定 */
+  height: auto; /* アスペクト比を維持して高さを自動調整 */
+  border-radius: 8px; /* 角を少し丸める（オプション） */
+  object-fit: cover; /* 画像のフィット方法を設定 */
+}
+
 $header-thickness: 56px;
 
 $icon-transition-time: 1.0s;
