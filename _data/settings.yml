@@ -6,7 +6,7 @@ disqus:
 menu:
 - {name: '活動日記',  url: 'active'}
 - {name: 'illustration', url: 'illustration'}
-- {name: 'plazmaのすすめ',  url: 'sample-posts'}
+- {name: 'plazmaのすすめ',  url: 'plasma'}
 - {name: '写真観',      url: 'photo'}
 - {name: '筋肉マスター', url: 'muscle'}
 - {name: '備忘録',      url: 'contact'}
