@@ -20,8 +20,8 @@ $phone-width: 480px;
 }
 
 .featured-post {
-  width: calc(48% - 10px);
-  margin-bottom: 20px;
+  width: calc(50% - 10px) !important;
+  margin-bottom: 20px !important;
 }
 
 @media (max-width: 600px) {
