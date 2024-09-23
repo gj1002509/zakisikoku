@@ -7,9 +7,9 @@
 }
 
 .featured-post {
-  width: calc(50% - 20px); /* 各写真を画面の50%幅にし、間に余白を取る */
+  width: calc(50% - 20px)!important; /* 各写真を画面の50%幅にし、間に余白を取る */
   margin: 10px 0; /* 縦方向のマージンを追加 */
-  height: 400px;
+  height: 400px!important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
