@@ -28,6 +28,15 @@
 .featured-post h1 {
   margin: 10px;
 }
+.featured-posts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 1行に2つのカラムを設定 */
+  grid-gap: 20px; /* カラム間と行間にスペースを設定 */
+}
+
+.featured-post {
+  width: 100%; /* グリッド内で幅を100%に設定 */
+}
 
 /*
   Pagination
