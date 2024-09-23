@@ -29,13 +29,14 @@
   margin: 10px;
 }
 .featured-posts-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 1行に2つのカラムを設定 */
-  grid-gap: 20px; /* カラム間と行間にスペースを設定 */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .featured-post {
-  width: 100%; /* グリッド内で幅を100%に設定 */
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
 }
 
 /*
