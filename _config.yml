@@ -11,3 +11,6 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           "総合芸術研究所"
 description:	       ""
 author:              ""
+url:                 "https://gj1002509.github.io"
+baseurl:             "/zakisikoku"
+
