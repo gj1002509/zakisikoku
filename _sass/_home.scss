@@ -1,15 +1,19 @@
-
 .featured-posts-container {
   display: flex;
-  flex-wrap: wrap; /* 自動的に折り返して2列になるように設定 */
-  justify-content: space-between; /* 各要素の間に均等なスペースを入れる */
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
+.featured-post-container {
+  width: calc(50% - 20px); /* 横に2つ並べるための50%幅に設定 */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .featured-post {
-  width: calc(50% - 20px)!important; /* 各写真を画面の50%幅にし、間に余白を取る */
-  margin: 10px 0; /* 縦方向のマージンを追加 */
-  height: 400px!important;
+  height: 400px;
+  margin: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,16 +46,12 @@
 
 /* スマートフォン用のレスポンシブデザイン */
 @media (max-width: 600px) {
-  .featured-post {
+  .featured-post-container {
     width: 100%; /* スマートフォンサイズでは1列に */
-    margin-bottom: 20px;
   }
 }
 
-/*
-  Pagination
-*/
-
+/* Pagination */
 .pagination {
   text-align: center;
 }
