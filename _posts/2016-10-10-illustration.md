@@ -25,7 +25,7 @@ tags: [documentation,sample]
             width: 100%;
             height: 200px; /* 高さを固定 */
             object-fit: cover; /* アスペクト比を維持しつつ、画像の中央を表示 */
-            border-radius: 5px;
+            border-radius: 10px;
         }
         .link-item a {
             text-decoration: none;
