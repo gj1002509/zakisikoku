@@ -7,9 +7,60 @@ tags: [documentation,sample]
 image: yuri1.png
 ---
 
-## [2024-9-12]
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブログリンク集</title>
+    <style>
+        .link-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .link-item {
+            width: 30%;
+            margin: 15px;
+            text-align: center;
+        }
+        .link-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-Illustration is deep.
-Illustration is broad
-Illustration is ...
+    <h1>関連記事</h1>
+    <div class="link-container">
+        <div class="link-item">
+            <a href="リンク先URL">
+                <img src="画像URL" alt="リンク1の画像">
+                <p>リンクの説明1</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="リンク先URL">
+                <img src="画像URL" alt="リンク2の画像">
+                <p>リンクの説明2</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="リンク先URL">
+                <img src="画像URL" alt="リンク3の画像">
+                <p>リンクの説明3</p>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+
 
