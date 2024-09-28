@@ -25,7 +25,8 @@ tags: [documentation,sample]
         }
         .link-item img {
             width: 100%;
-            height: auto;
+            height: 200px; /* 高さを固定 */
+            object-fit: cover; /* アスペクト比を維持しつつ、画像の中央を表示 */
             border-radius: 10px;
         }
         .link-item a {
