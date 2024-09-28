@@ -7,31 +7,9 @@ $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
 
-$container-width: 1300px;
+$container-width: 1500px;
 $tablet-width: 600px;
 $phone-width: 480px;
-
-.custom-image-posts {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.custom-image-post {
-  flex-basis: calc(33% - 10px); /* 2つの要素を50%幅にし、間隔を10pxに設定 */
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.custom-image-post img {
-  width: 100%; /* コンテナ幅に合わせて画像を調整 */
-  aspect-ratio: 1/1; /* 正方形にする */
-  object-fit: cover; /* 画像をコンテナ内に収める */
-  border-radius: 8px; /* 角を少し丸める（オプション） */
-}
-
-
 
 $header-thickness: 56px;
 
