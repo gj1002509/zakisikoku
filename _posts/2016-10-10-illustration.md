@@ -57,18 +57,6 @@ tags: [documentation,sample]
                 <p>異邦</p>
             </a>
         </div>
-        <div class="link-item">
-            <a href="{{ site.baseurl }}/illust3">
-                <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>TBD</p>
-            </a>
-        </div>
-        <div class="link-item">
-            <a href="{{ site.baseurl }}/illust3">
-                <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>TBD</p>
-            </a>
-        </div>
     </div>
 
 </body>
