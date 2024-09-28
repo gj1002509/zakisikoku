@@ -47,13 +47,13 @@ tags: [documentation,sample]
     <div class="link-container">
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/sannbika-2.png" alt="讃美歌">
+                <img src="{{ site.github.url }}/assets/img/sannbika_2-1.jpg" alt="讃美歌">
                 <p>讃美歌</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/sannbika_2-1.jpg" alt="ファンアート">
+                <img src="{{ site.github.url }}/assets/img/pri_1.jpg" alt="ファンアート">
                 <p>異邦</p>
             </a>
         </div>
