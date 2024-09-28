@@ -5,8 +5,6 @@ author: ""
 categories: illustration
 tags: [documentation,sample]
 ---
-
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -19,7 +17,7 @@ tags: [documentation,sample]
             justify-content: space-around;
         }
         .link-item {
-            width: calc(33.33% - 30px); /* 余白を差し引いて計算 */
+            width: calc(33.33% - 10px); /* 余白を差し引いて計算 */
             margin: 15px;
             text-align: center;
         }
@@ -31,7 +29,7 @@ tags: [documentation,sample]
         }
         .link-item a {
             text-decoration: none;
-            color: #add8e6;
+            color: #0099e6;
             font-weight: bold;
         }
     </style>
