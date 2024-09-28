@@ -50,14 +50,14 @@ tags: [documentation,sample]
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/pri_1.jpg" alt="ファンアート">
+                <img src="{{ site.github.url }}/assets/img/pri_1.png" alt="ファンアート">
                 <p>異邦</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust2">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <pTBD</p>
+                <p>TBD</p>
             </a>
         </div>
         <div class="link-item">
