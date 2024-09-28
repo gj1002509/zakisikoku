@@ -43,27 +43,27 @@ tags: [documentation,sample]
     <h1>関連記事</h1>
     <div class="link-container">
         <div class="link-item">
-            <a href="{{ site.baseurl }}/sono1">
-                <img src="{{ site.github.url }}/assets/img/yuri1.png" alt="リンク1の画像">
-                <p>メイドの日常</p>
+            <a href="{{ site.baseurl }}/illust1">
+                <img src="{{ site.github.url }}/assets/img/sannbika-1.png" alt="讃美歌">
+                <p>讃美歌</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/city-1.jpg" alt="リンク2の画像">
-                <p>プリキュア</p>
+                <img src="{{ site.github.url }}/assets/img/pri_1.jpg" alt="ファンアート">
+                <p>異邦</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust2">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>ザ・ロック</p>
+                <pTBD</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust2">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>不明</p>
+                <p>TBD</p>
             </a>
         </div>
     </div>
