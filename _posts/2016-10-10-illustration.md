@@ -25,8 +25,8 @@ tags: [documentation,sample]
             display: none;
         }
         .link-item img {
-            width: 100%;
-            height: 200px; /* 高さを固定 */
+            width: 200%;
+            height: 400px; /* 高さを固定 */
             object-fit: cover; /* アスペクト比を維持しつつ、画像の中央を表示 */
             border-radius: 10px;
             transition: transform 0.3s ease; /* ズームのトランジションを設定 */
