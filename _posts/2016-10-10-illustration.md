@@ -17,7 +17,7 @@ tags: [documentation,sample]
             justify-content: space-around;
         }
         .link-item {
-            width: calc(33.33% - 30px); /* 余白を差し引いて計算 */
+            width: calc(33.33% - 10px); /* 余白を差し引いて計算 */
             margin: 2px;
             text-align: center;
         }
@@ -25,8 +25,8 @@ tags: [documentation,sample]
             display: none;
         }
         .link-item img {
-            width: 200%;
-            height: 400px; /* 高さを固定 */
+            width: 100%;
+            height: 200px; /* 高さを固定 */
             object-fit: cover; /* アスペクト比を維持しつつ、画像の中央を表示 */
             border-radius: 10px;
             transition: transform 0.3s ease; /* ズームのトランジションを設定 */
