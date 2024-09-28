@@ -13,13 +13,13 @@ tags: [documentation,sample]
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ブログリンク集</title>
     <style>
-        .link-container {
+         .link-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
         }
         .link-item {
-            width: 30%;
+            width: calc(33.33% - 30px); /* 余白を差し引いて計算 */
             margin: 15px;
             text-align: center;
         }
