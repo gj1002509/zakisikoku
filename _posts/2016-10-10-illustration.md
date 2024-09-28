@@ -21,6 +21,9 @@ tags: [documentation,sample]
             margin: 2px;
             text-align: center;
         }
+        .post-date {
+            display: none;
+        }
         .link-item img {
             width: 100%;
             height: 200px; /* 高さを固定 */
@@ -44,7 +47,7 @@ tags: [documentation,sample]
     <div class="link-container">
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/sannbika-1.png" alt="讃美歌">
+                <img src="{{ site.github.url }}/assets/img/sannbika-2.png" alt="讃美歌">
                 <p>讃美歌</p>
             </a>
         </div>
