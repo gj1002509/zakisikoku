@@ -41,8 +41,8 @@ image: yuri1.png
     <h1>関連記事</h1>
     <div class="link-container">
         <div class="link-item">
-            <a href="リンク先URL">
-                <img src="画像URL" alt="リンク1の画像">
+            <a href="{{ site.baseurl }}/sono1">
+                <img src="{{ site.github.url }}/assets/img/yuri1.png" alt="リンク1の画像">
                 <p>リンクの説明1</p>
             </a>
         </div>
