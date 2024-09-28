@@ -18,7 +18,7 @@ tags: [documentation,sample]
         }
         .link-item {
             width: calc(33.33% - 30px); /* 余白を差し引いて計算 */
-            margin: 5px;
+            margin: 2px;
             text-align: center;
         }
         .link-item img {
@@ -51,7 +51,7 @@ tags: [documentation,sample]
             </a>
         </div>
         <div class="link-item">
-            <a href="{{ site.baseurl }}/illust1">
+            <a href="{{ site.baseurl }}/illust2">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
                 <p>【イラスト】ザ・ロック</p>
             </a>
