@@ -31,7 +31,7 @@ tags: [documentation,sample]
         }
         .link-item a {
             text-decoration: none;
-            color: #333;
+            color: #add8e6;
             font-weight: bold;
         }
     </style>
@@ -43,19 +43,19 @@ tags: [documentation,sample]
         <div class="link-item">
             <a href="{{ site.baseurl }}/sono1">
                 <img src="{{ site.github.url }}/assets/img/yuri1.png" alt="リンク1の画像">
-                <p>リンクの説明1</p>
+                <p>【イラスト】メイドの日常</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
                 <img src="{{ site.github.url }}/assets/img/city-1.jpg" alt="リンク2の画像">
-                <p>リンクの説明2</p>
+                <p>【イラスト】プリキュア</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>リンクの説明3</p>
+                <p>【イラスト】ザ・ロック</p>
             </a>
         </div>
     </div>
