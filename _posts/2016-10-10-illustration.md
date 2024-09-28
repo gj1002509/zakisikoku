@@ -47,13 +47,13 @@ tags: [documentation,sample]
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/city-1.png" alt="リンク2の画像">
+                <img src="{{ site.github.url }}/assets/img/city-1.jpg" alt="リンク2の画像">
                 <p>リンクの説明2</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
-                <img src="{{ site.github.url }}/assets/img/cuba-1.png" alt="リンク3の画像">
+                <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
                 <p>リンクの説明3</p>
             </a>
         </div>
