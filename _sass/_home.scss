@@ -10,20 +10,6 @@
   margin-bottom: 10px;
   text-align: center;
 }
-
-.featured-posts-container1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.featured-post-container1 {
-  width: calc(33% - 5px); /* 横に2つ並べるための50%幅に設定 */
-  margin-bottom: 5px;
-  text-align: center;
-}
-
 .featured-post {
   height: 400px;
   margin: 0;
@@ -55,13 +41,6 @@
 
 .featured-post h1 {
   margin: 10px;
-}
-
-/* スマートフォン用のレスポンシブデザイン */
-@media (max-width: 600px) {
-  .featured-post-container {
-    width: 100%; /* スマートフォンサイズでは1列に */
-  }
 }
 
 /* Pagination */
