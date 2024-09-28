@@ -17,8 +17,8 @@ tags: [documentation,sample]
             justify-content: space-around;
         }
         .link-item {
-            width: calc(33.33% - 10px); /* 余白を差し引いて計算 */
-            margin: 15px;
+            width: calc(33.33% - 30px); /* 余白を差し引いて計算 */
+            margin: 5px;
             text-align: center;
         }
         .link-item img {
