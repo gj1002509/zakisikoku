@@ -26,6 +26,10 @@ tags: [documentation,sample]
             height: 200px; /* 高さを固定 */
             object-fit: cover; /* アスペクト比を維持しつつ、画像の中央を表示 */
             border-radius: 10px;
+            transition: transform 0.3s ease; /* ズームのトランジションを設定 */
+        }
+        .link-item img:hover {
+            transform: scale(1.1); /* カーソルを合わせたときに1.1倍にズーム */
         }
         .link-item a {
             text-decoration: none;
