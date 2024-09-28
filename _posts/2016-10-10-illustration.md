@@ -45,19 +45,25 @@ tags: [documentation,sample]
         <div class="link-item">
             <a href="{{ site.baseurl }}/sono1">
                 <img src="{{ site.github.url }}/assets/img/yuri1.png" alt="リンク1の画像">
-                <p>【イラスト】メイドの日常</p>
+                <p>メイドの日常</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
                 <img src="{{ site.github.url }}/assets/img/city-1.jpg" alt="リンク2の画像">
-                <p>【イラスト】プリキュア</p>
+                <p>プリキュア</p>
             </a>
         </div>
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust2">
                 <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
-                <p>【イラスト】ザ・ロック</p>
+                <p>ザ・ロック</p>
+            </a>
+        </div>
+        <div class="link-item">
+            <a href="{{ site.baseurl }}/illust2">
+                <img src="{{ site.github.url }}/assets/img/cuba-1.jpg" alt="リンク3の画像">
+                <p>不明</p>
             </a>
         </div>
     </div>
