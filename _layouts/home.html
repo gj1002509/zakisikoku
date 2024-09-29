@@ -6,6 +6,39 @@ title: Home
   {% include featured-post.html %}
 {% endfor %}
 
+ <!-- インラインCSS -->
+  <style>
+    .article-links-box {
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .article-links-box a {
+      display: block;
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    .article-links-box a:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 記事リンクを表示するボックス -->
+<div class="article-links-box">
+   <a href="/article1">記事タイトル 1</a>
+  <a href="/article2">記事タイトル 2</a>
+  <a href="/article3">記事タイトル 3</a>
+</div>
+
 <!-- 1行目の写真リンク -->
 <div class="featured-posts-container">
   <div class="featured-post-container">
