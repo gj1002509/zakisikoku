@@ -2,10 +2,37 @@
 layout: default
 title: Home
 ---
+ <!-- インラインCSS -->
+  <style>
+    .recommended-section {
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+    }
 
+    .recommended-post h3 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+
+    .recommended-post p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}
+
+<!-- おすすめ記事のランダム表示 -->
+<div class="recommended-section">
+  {% include random-post.html %}
+</div>
 
 <!-- 1行目の写真リンク -->
 <div class="featured-posts-container">
