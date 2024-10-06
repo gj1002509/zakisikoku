@@ -48,7 +48,7 @@ tags: [documentation,sample]
         <div class="link-item">
             <a href="{{ site.baseurl }}/illust1">
                 <img src="{{ site.github.url }}/assets/img/sannbika-2.1.png" alt="讃美歌">
-                <p>Fragments</p>
+                <p>碎形少女生態圏</p>
             </a>
         </div>
         <div class="link-item">
